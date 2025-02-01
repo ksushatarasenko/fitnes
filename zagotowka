@@ -1,0 +1,56 @@
+<!-- tłumaczenie-->
+
+<div class="blockZadanie">
+    <h4>ТОРТИЛЬЯ З ТОМАТОМ І ПЕЧЕРИЦЯМИ</h4>
+    <div class="hint2-container" onclick="toggleHint2(this)">
+        <div class="hint2-header italic fiolet">РЕЦЕПТ</div>
+        <div class="hint2-content">
+            <div class="image" style="width: 45%;">
+                <p class="p20">GGGGGG</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -->
+<div class="blockZadanie">
+    <div class="">
+        <h4>ТОРТИЛЬЯ З ТОМАТОМ І ПЕЧЕРИЦЯМИ</h4>
+        <div class="flex">
+            <img src="https://www.povarenok.ru/data/cache/2023oct/20/50/3079884_85566-710x550x.jpg"
+                alt="ТОРТИЛЬЯ">
+            <div>
+                <h6>ІНГРЕДІЄНТИ:</h6>
+                <ul>
+                    <li>Лаваш на діаметр сковороди</li>
+                    <li>1 яйце</li>
+                    <li>20 мл молока</li>
+                    <li>5-6 печериць за бажанням</li>
+                    <li>5 черрі або помідорів</li>
+                    <li>Спеції (паприка, сіль, часник)</li>
+                    <li>Крапля олії для сковороди</li>
+                </ul>
+            </div>
+            <div>
+                <h6>КБЖУ НА ВСЮ ПОРЦІЮ</h6>
+                <p class="p22">409 ККАЛ </p>
+                <p class="p22">БЖУ 33,1/11,2/52,5</p>
+            </div>
+        </div>
+
+        <div class="hint2-container" onclick="toggleHint2(this)">
+            <div class="hint2-header italic fiolet">РЕЦЕПТ</div>
+            <div class="hint2-content">
+                <div class="image" style="width: 75%;">
+                    <h6>ПРИГОТУВАННЯ:</h6>
+                    <p class="p22">
+                        Печериці та томати тушкуємо на сковороді.
+                        Вирізаємо лаваш по діаметру сковороди, змащуємо її краплею олії. На лаваш кладемо
+                        тушковані овочі, змішуємо яйце, молоко та спеції.
+                        Виливаємо на лаваш і закриваємо кришкою, коли трохи схопитися, складаємо навпіл і
+                        перевертаємо, щоб обсмажити на іншій стороні.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

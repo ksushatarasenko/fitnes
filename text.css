@@ -1,0 +1,83 @@
+/* ====== TEXT ========== */
+h1{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 36px;
+}
+h2{
+    font-size: 32px;
+    color: rgb(115, 76, 5);
+    text-align: center;
+    margin: 3%;
+}
+h3{
+    font-size: 28px;
+    text-align: center;
+}
+h4{
+    font-size: 24px;
+    color: rgb(93, 88, 88);
+    text-align: center;
+    padding: 20px;
+}
+h5{
+    font-size: 22px;
+    color: rgb(97, 56, 115);
+    text-align: center;
+}
+h6{
+    font-size: 20px;
+    color: rgb(97, 56, 115);
+    text-align: center;
+    margin-top: 20px;
+}
+.p{
+    font-size: 28px;
+    margin-top: 3%;
+}
+
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.green{
+    color: rgb(213, 7, 155);
+}
+ a{
+    font-size: 20px;
+ }
+ ol{
+    font-size: 26px;
+ }
+
+ .p18{
+    font-size: 18px;
+}
+.p20{
+    font-size: 20px;
+}
+.p22{
+    font-size: 22px;
+    margin: 0 100px;
+}.p24{
+    font-size: 24px;
+}
+ul{
+    font-size: 22px;
+    color: rgb(76, 73, 73);
+    padding: 20px;
+}
+
+li{
+    font-size: 20px;
+    color: rgb(76, 73, 73);
+
+}
+.left{
+    margin-left: 100px;
+}
+p,li{
+    line-height: 1.3;
+}
