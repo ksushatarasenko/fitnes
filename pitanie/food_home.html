@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="../text.css">
 
 </head>
+
 <body>
     <div class="cialoBox">
         <header class="header">
@@ -16,6 +18,20 @@
             <h2><a href="../zariadka/zariadka_home.html">Физ.нагрузка</a></h2>
         </header>
         <div class="wrapier">
+            <nav id="dayNav">
+                <button onclick="showDay(0)" class="active">Пн</button>
+                <button onclick="showDay(1)">Вт</button>
+                <button onclick="showDay(2)">Ср</button>
+                <button onclick="showDay(3)">Чт</button>
+                <button onclick="showDay(4)">Пт</button>
+                <button onclick="showDay(5)">Сб</button>
+                <button onclick="showDay(6)">Вс</button>
+                <button onclick="showDay(7)">Добавки</button>
+
+            </nav>
+            <main>
+                <div id="days"></div>
+            </main>
             <div class="list">
                 <h2><a href="./zawtrak.html">Завтраки</a></h2>
                 <h2><a href="./obed.html">Обед</a></h2>
@@ -32,4 +48,5 @@
         </div>
     </div>
 </body>
+
 </html>
