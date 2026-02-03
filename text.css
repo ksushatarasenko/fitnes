@@ -55,19 +55,27 @@ h6{
  .p18{
     font-size: 18px;
 }
+p{
+    font-size: 19px;
+}
 .p20{
     font-size: 20px;
 }
 .p22{
     font-size: 22px;
     margin: 0 100px;
-}.p24{
+}
+.p24{
     font-size: 24px;
+}
+.centr{
+    text-align: center;
 }
 ul{
     font-size: 22px;
     color: rgb(76, 73, 73);
     padding: 20px;
+    margin-left: 30px;
 }
 
 li{
