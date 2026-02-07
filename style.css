@@ -56,7 +56,9 @@ a{
 }
 /* wrapier */
 .wrapier{
+    max-width: 1200px;
    padding: 2%;
+    margin: 0 auto;
 }
 /* table */
 table{
@@ -125,7 +127,6 @@ h6{
 .list{
     max-width: 60%;
     margin:0 auto;
-    height: 100vh;
 }
 .list ul>li{
     font-size: 28px;
