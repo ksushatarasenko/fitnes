@@ -53,3 +53,18 @@ html{scroll-behavior:auto}
 @media (max-width:480px){
 .back-to-top{right:12px; bottom:12px; --btn-size:44px}
 }
+
+/* POISK */
+
+.poisk{
+    display: flex;
+    gap: 1%;
+    
+}
+.poisk>p{
+    font-size: 24px;
+}
+.poisk>input{
+    font-size: 18px;
+    padding: 0.5%;
+}

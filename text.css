@@ -89,3 +89,63 @@ li{
 p,li{
     line-height: 1.3;
 }
+
+/* tablica poisk */
+#productsTable{
+    font-size: 17px;
+    width: 100%;
+  table-layout: fixed;   /* ключевая строка */
+  border-collapse: collapse;
+  
+}
+
+#productsTable th,
+#productsTable td {
+  padding: 5px;
+  
+  /* перенос текста */
+  white-space: normal;     /* разрешает перенос */
+  word-wrap: break-word;   /* старое, но работает */
+  overflow-wrap: break-word; /* современное */
+}
+
+
+#productsTable th:nth-child(1),
+#productsTable td:nth-child(1) {
+  width: 15%;
+}
+
+#productsTable th:nth-child(2),
+#productsTable td:nth-child(2) {
+  width: 15%;
+}
+
+#productsTable th:nth-child(3),
+#productsTable td:nth-child(3) {
+  width: 9%;
+  font-size: 16px;
+}
+
+#productsTable th:nth-child(4),
+#productsTable td:nth-child(4) {
+  width: 14%;
+  font-size: 16px;
+}
+
+#productsTable th:nth-child(5),
+#productsTable td:nth-child(5) {
+  width: 10%;
+  font-size: 16px;
+}
+
+#productsTable th:nth-child(6),
+#productsTable td:nth-child(6) {
+  width: 20%;
+  font-size: 16px;
+}
+
+#productsTable th:nth-child(7),
+#productsTable td:nth-child(7) {
+  width: 10%;
+  font-size: 16px;
+}
