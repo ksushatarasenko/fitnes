@@ -274,8 +274,12 @@ h6{
 
 .two{
    display: flex;
+   
    gap: 20px;
    padding: 5%;
+}
+.two>div{
+    width: 50%;
 }
 
 /* IMAGE */
