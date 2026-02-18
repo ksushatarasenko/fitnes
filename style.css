@@ -89,37 +89,6 @@ tr:hover{
     background-color: #e0e0e0;
 }
 /* list */
-h2{
-    font-size: 32px;
-    color: rgb(115, 76, 5);
-    text-align: center;
-    margin: 3%;
-}
-h3{
-    font-size: 28px;
-    text-align: center;          
-}
-h4{
-    font-size: 24px;
-    color: rgb(93, 88, 88);
-    text-align: center;
-    padding: 20px;
-}
-h5{
-    font-size: 22px;
-    color: rgb(97, 56, 115);           
-      text-align: center;     
-}
-h6{
-    font-size: 20px;
-    color: rgb(97, 56, 115);
-    text-align: center;
-    margin-top: 20px;
-}
-.p{
-    font-size: 28px;
-    margin-top: 3%;
-}  
 
 
 /*  */
@@ -273,10 +242,9 @@ h6{
  }
 
 .two{
-   display: flex;
-   
+   display: flex;   
    gap: 20px;
-   padding: 5%;
+   padding: 2%;
 }
 .two>div{
     width: 50%;
