@@ -272,3 +272,140 @@ hr {
     display: block;
     object-fit: cover;
 }
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  body{
+    font-size: 16px;
+  }
+
+  .cialoBox{
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  /* HEADER */
+  .header{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  a{
+    font-size: 20px;
+  }
+
+  /* NAV */
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav button{
+    width: 100%;
+    max-width: 250px;
+  }
+
+  /* WRAPPER */
+  .wrapier{
+    padding: 10px;
+  }
+
+  /* FLEX BLOCKS */
+  .flex{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .two{
+    flex-direction: column;
+  }
+
+  .two > div{
+    width: 100%;
+  }
+
+  /* IMAGES */
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  .image{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .image > img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* TABLE SCROLL */
+  table{
+    font-size: 14px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  #productsTable{
+    font-size: 13px;
+  }
+
+  /* LIST */
+  .list{
+    max-width: 100%;
+  }
+
+  .list ul > li{
+    font-size: 20px;
+  }
+
+  /* TEXT */
+  h1{ font-size: 26px; }
+  h2{ font-size: 24px; }
+  h3{ font-size: 22px; }
+  h4{ font-size: 20px; }
+  h5{ font-size: 18px; }
+  h6{ font-size: 16px; }
+
+  p{
+    font-size: 16px;
+  }
+
+  li{
+    font-size: 16px;
+  }
+
+  /* BLOCK */
+  .blockZadanie{
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  /* HINT */
+  .hint2-container{
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width: 480px){
+
+  nav button{
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  h1{ font-size: 22px; }
+  h2{ font-size: 20px; }
+
+  .meal{
+    padding: 10px;
+  }
+
+}
