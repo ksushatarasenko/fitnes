@@ -212,7 +212,7 @@ tr:hover{
  .flex{
     display: flex;
     justify-content: center;
-    gap: 90px;
+    gap: 10px;
  }
 
  /*  */
@@ -259,15 +259,16 @@ hr {
 /* IMAGE */
 
 .image > img{
-    width: 98%;
+    width: 100%;
     margin: 0 auto;
-    height: 100%;
+    height: auto;
     overflow: hidden;
 }
 
 .image{
-    width: 280px;
-    height: 200px;
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
     margin-left: 30px;
     display: block;
     object-fit: cover;
